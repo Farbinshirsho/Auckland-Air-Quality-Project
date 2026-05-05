@@ -5,21 +5,7 @@
 
 ---
 
-## Projects
-
-### Project 1 — Analysing New Zealand's Economic and Carbon Trends (2010–2024)
-
-Exploratory data analysis on Stats NZ datasets investigating the relationship between GDP growth and greenhouse gas emissions across industries. Key finding: New Zealand's overall carbon intensity has decreased since 2010, but the Agriculture sector remains a significant outlier.
-
-**Key tools:** Python (pandas, matplotlib, seaborn, numpy), Jupyter Notebook  
-**Techniques:** EDA, data wrangling, time-series analysis, Pearson correlation, ratio analysis, data visualisation
-
----
-
 ### Project 2 — Auckland Air Quality Prediction (PM2.5)
-
-**Course:** 158.755 Data Science — Massey University, Semester 1 2026  
-**Notebook:** `Auckland_Air.ipynb`
 
 #### Overview
 
@@ -69,14 +55,9 @@ Predictive regression modelling of PM2.5 air pollution in Auckland using a multi
 ## Repository Structure
 
 ```
-Data-Science-Projects/
+Auckland-Air-Quality-Project/
 │
 ├── README.md
-│
-├── project1_nz_carbon_trends/
-│   ├── NZ_Carbon_Trends.ipynb
-│   └── data/
-│       └── (Stats NZ datasets)
 │
 └── project2_auckland_air_quality/
     ├── Auckland_Air.ipynb
@@ -113,47 +94,6 @@ jupyter
 ```
 
 > **Note:** The notebook uses live web scraping and API calls. An active internet connection is required to reproduce the data acquisition cells. The OpenAQ API requires a free API key — replace the `OPENAQ_API_KEY` variable in the notebook with your own key from [openaq.org](https://openaq.org).
-
----
-
-## How to Run
-
-```bash
-# Clone the repository
-git clone https://github.com/Farbinshirsho/Data-Science-Projects.git
-cd Data-Science-Projects/project2_auckland_air_quality
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Launch Jupyter
-jupyter notebook Auckland_Air.ipynb
-```
-
-Run all cells from top to bottom. The notebook is self-contained — all outputs and figures are embedded.
-
----
-
-## GitHub Setup Instructions
-
-If you are adding this project to your existing repository for the first time:
-
-```bash
-# Navigate to your local repo folder
-cd Data-Science-Projects
-
-# Create the project folder and add files
-mkdir project2_auckland_air_quality
-cp /path/to/Auckland_Air.ipynb project2_auckland_air_quality/
-cp /path/to/auckland_scraped_pm25.csv project2_auckland_air_quality/
-
-# Stage and commit
-git add .
-git commit -m "Add Project 2: Auckland Air Quality Prediction (PM2.5)"
-
-# Push to GitHub
-git push origin main
-```
 
 ---
 
