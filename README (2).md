@@ -1,11 +1,11 @@
-# Data Science Projects — Farbin Aziz
+#  Auckland Air Quality Prediction (PM2.5)
 
-**GitHub:** [github.com/Farbinshirsho/Data-Science-Projects](https://github.com/Farbinshirsho/Data-Science-Projects)  
-**Student ID:** 25024206 | Massey University — Master of Information Sciences
+**GitHub:** [github.com/Farbinshirsho/Data-Science-Projects](https://github.com/Farbinshirsho/Auckland-Air-Quality-Project)  
+
 
 ---
 
-### Project 2 — Auckland Air Quality Prediction (PM2.5)
+### Project 2 - Auckland Air Quality Prediction (PM2.5)
 
 #### Overview
 
@@ -69,12 +69,7 @@ Auckland-Air-Quality-Project/
 ```bash
 pip install requests beautifulsoup4 scikit-learn seaborn matplotlib pandas numpy
 ```
-
-Or install from the requirements file:
-
-```bash
-pip install -r Auckland-Air-Quality-Project/requirements.txt
-```
+`
 `
 > **Note:** The notebook uses live web scraping and API calls. An active internet connection is required to reproduce the data acquisition cells. The OpenAQ API requires a free API key — replace the `OPENAQ_API_KEY` variable in the notebook with your own key from [openaq.org](https://openaq.org).
 
