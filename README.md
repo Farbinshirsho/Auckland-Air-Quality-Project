@@ -1,8 +1,5 @@
 #  Auckland Air Quality Prediction (PM2.5)
 
-**GitHub:** [github.com/Farbinshirsho/Data-Science-Projects](https://github.com/Farbinshirsho/Auckland-Air-Quality-Project)  
-
-
 ---
 
 ### Project 2 - Auckland Air Quality Prediction (PM2.5)
